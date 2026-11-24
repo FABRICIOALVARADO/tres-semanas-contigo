@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f3e9">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="Tres sobres y una carta de Fabri para Sahory.">
+  <meta property="og:title" content="Sahory, tienes una carta ♡">
+  <meta property="og:description" content="Para abrir despacito. De Fabri, para ti.">
+  <title>Tres semanas contigo · Para Sahory</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='1' y='1' width='46' height='46' rx='12' fill='%2380263e'/%3E%3Cpath d='M24 36 10 22c-7-9 6-19 14-9 8-10 21 0 14 9Z' fill='%23fff0d8'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="carta.css">
+  <script defer src="carta.js"></script>
+</head>
+<body id="portada">
+  <a class="skip" href="#sobres">Ir a los sobres</a>
+  <header class="masthead wrap">
+    <a class="brand" href="#portada"><span class="mail-mark" aria-hidden="true">♡</span> Para Sahory</a>
+    <nav aria-label="Navegación principal">
+      <a class="nav-link" href="#sobres">Los sobres</a>
+      <a class="nav-link" href="#cancion">La canción</a>
+      <button class="sound-pill js-control" type="button" data-sound aria-pressed="false" aria-label="Reproducir Morfina de HUMBE">
+        <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span data-sound-label>Activar sonido</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="hero-copy">
+        <p class="date"><span></span><time datetime="2026-11-24">24 de noviembre de 2026</time></p>
+        <h1 id="title">Tres semanas<br><em>contigo.</em></h1>
+        <p class="intro">Sahory, te guardé tres frases y una carta. Ábrelas despacito, como si estuviera sentado a tu lado.</p>
+        <a class="primary start-link" href="#lectura" data-open="0"><span class="mini-mail" aria-hidden="true"></span>Abrir el primer sobre</a>
+      </div>
+      <figure class="photo-stack">
+        <div class="photo-print">
+          <span class="tape" aria-hidden="true"></span>
+          <img class="hero-photo" src="assets/rosa-y-carta.webp" alt="Una rosa color vino junto a una carta de papel marfil cerrada con lacre." width="1250" height="833" fetchpriority="high">
+          <figcaption>Una rosa para ti, Sahory <span aria-hidden="true">♡</span></figcaption>
+        </div>
+      </figure>
+    </section>
+
+    <section class="letters wrap" id="sobres" aria-labelledby="letters-title">
+      <div class="section-heading"><div><p class="eyebrow">De Fabri para ti</p><h2 id="letters-title">Los tres <em>sobres.</em></h2></div><p class="heading-note">Una frase en cada uno.</p></div>
+      <div class="envelope-grid">
+        <a class="envelope-card miel" href="#lectura-1" data-open="0">
+          <span class="envelope-scene"><span class="envelope" aria-hidden="true"><span class="paper-lip"></span><span class="env-front"></span><span class="env-flap"></span><span class="wax">♥</span></span></span>
+          <span class="envelope-text"><small>Primer sobre</small><strong>Tu corazón</strong></span>
+        </a>
+        <a class="envelope-card rosa" href="#lectura-2" data-open="1">
+          <span class="envelope-scene"><span class="envelope" aria-hidden="true"><span class="paper-lip"></span><span class="env-front"></span><span class="env-flap"></span><span class="wax">♥</span></span></span>
+          <span class="envelope-text"><small>Segundo sobre</small><strong>Lo que compartimos</strong></span>
+        </a>
+        <a class="envelope-card vino" href="#lectura-3" data-open="2">
+          <span class="envelope-scene"><span class="envelope" aria-hidden="true"><span class="paper-lip"></span><span class="env-front"></span><span class="env-flap"></span><span class="wax">♥</span></span></span>
+          <span class="envelope-text"><small>Tercer sobre</small><strong>Sin miedo</strong></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="song wrap" id="cancion" aria-labelledby="song-title">
+      <div class="song-label"><div class="record" aria-hidden="true"><span></span></div><div><p class="eyebrow">Para escuchar contigo</p><h2 id="song-title">Morfina <span>·</span> <em>HUMBE</em></h2></div></div>
+      <div class="player-area">
+        <div id="player-slot"><div id="spotify-player"></div></div>
+        <p id="player-help" role="status">Si quieres, puedes darle play aquí.</p>
+        <a class="music-link" href="https://open.spotify.com/intl-es/track/0zLr0KLp3KUKGRBzgsrVK2" target="_blank" rel="noopener noreferrer">Abrir la canción en Spotify</a>
+      </div>
+    </section>
+    <section class="plain-letters wrap" id="lectura" aria-label="Recorrido de las cartas">
+      <article id="lectura-1" data-page>
+        <p class="eyebrow">Primer sobre · Tu corazón</p>
+        <blockquote>«Recuerda que donde esté tu corazón, allí encontrarás tu tesoro.»</blockquote>
+        <p class="aside-note">A mí me basta con mirarte a los ojos, Sahory. Siempre se me olvida lo que te iba a decir.</p>
+      </article>
+      <article id="lectura-2" data-page>
+        <p class="eyebrow">Segundo sobre · Lo que compartimos</p>
+        <blockquote>«El amor es también una cosa misteriosa: cuanto más compartimos, más se multiplica.»</blockquote>
+        <p class="aside-note">Me encanta cómo me hablas. Contigo puedo decir cualquier locura y sé que vas a entender por qué me da risa.</p>
+      </article>
+      <article id="lectura-3" data-page>
+        <p class="eyebrow">Tercer sobre · Sin miedo</p>
+        <blockquote>«Cuántas cosas perdemos por miedo a perder.»</blockquote>
+        <p class="aside-note">Así que me animo a pedirte algo. Después de cenar la próxima semana, ¿bailas conmigo?</p>
+      </article>
+      <article id="lectura-4" class="final-letter" data-page>
+        <p class="eyebrow">Mi carta para ti</p>
+        <h2>Sahory,</h2>
+        <div class="letter-body">
+          <p>estoy muy feliz de poder compartir 3 semanas contigo. Seré breve. Quiero tenerte toda mi vida y que tus ojos me vean solo a mí.</p>
+          <p>Quiero compartir mis buenos y malos momentos. Sí, quiero que la próxima semana vayamos a cenar y podamos compartir un momento agradable.</p>
+          <p>Sin mucho más que agregar, te amo y eres la persona que más quiero. Este es solo el inicio. Yo seré tuyo hasta el fin de mis días.</p>
+        </div>
+        <p class="signature">Fabri <span aria-hidden="true">♡</span></p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap"><span>Fabri <i>♡</i> Sahory</span><time datetime="2026-11-24">24 · XI · 2026</time></footer>
+
+  <dialog id="reader" aria-label="Recorrido de sobres">
+    <div class="reader-shell">
+      <div class="reader-top"><span class="folio" id="folio"></span><button type="button" class="close-reader" aria-label="Cerrar el sobre">×</button></div>
+      <div class="letter-sheet" id="page-content"></div>
+      <div class="reader-controls">
+        <button type="button" class="plain-button" id="previous">Anterior</button>
+        <button type="button" class="primary" id="next">Abrir el segundo sobre</button>
+      </div>
+      <div class="reader-foot"><span class="progress" aria-hidden="true"><i></i><i></i><i></i><i></i></span><button class="reader-sound" type="button" data-sound aria-pressed="false"><span aria-hidden="true">♫</span> <span data-sound-label>Activar sonido</span></button></div>
+      <a class="reader-player-link" id="reader-player-link" href="#cancion" hidden>Ver el reproductor de Spotify</a>
+      <div class="petals" aria-hidden="true"></div>
+    </div>
+  </dialog>
+</body>
+</html>
